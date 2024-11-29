@@ -1,0 +1,440 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+body{
+   height: 450vh;
+   background-color:#3f0000 ;
+}
+.loading{
+   width: 200px;
+   aspect-ratio: 1/1;
+   background-color: blue;
+   color: red;
+   animation-name: loading;
+   animation-duration: 10s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+animation-play-state: running;
+margin-top: -2800px;
+font-size: xx-large;
+font-weight: bold;
+}
+@keyframes loading {
+   from {
+     translate: 150vw 0;
+     scale: 200% 1;
+   }
+ 
+   to {
+     translate: 0 0;
+     scale: 100% 1;
+     color: transparent;
+     background-color: transparent;
+   }
+ }
+h1{
+font-weight: 500;
+font-family: system-ui, sans-serif;
+color: #EB5B00;
+margin-top: 70px;
+padding-left: 50px;
+
+}
+h1:hover{
+   scale: 80%;
+  transition: all 300ms linear;
+  
+
+}
+
+span{
+   color: #FFB200;
+}
+
+
+.box{
+   width: 20px;
+   height: 100px;
+   background-color:#DAD4B5;
+   margin-top: 70px;
+margin-left: 50px;
+}
+
+ul{
+   display: flex;
+   list-style: none;
+}
+ ul li a{
+   display: flex;
+   position: sticky;
+   margin-top: -70px;
+   text-decoration: none;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 350px;
+font-size:22px;
+color: #eff0f1;
+margin-right: -150px;
+
+ }
+ ul li a:hover{
+   color: #ba0707;
+ }
+
+ .box1{
+   margin-top: -75px;
+   width: 160px;
+   height:50px;
+   background-color: #EB5B00;
+   margin-left: 340px;
+   border-radius: 50%;
+ }
+ 
+
+ .box2{
+   margin-top: -60px;
+   width: 120px;
+   height: 50px;
+   background-color: #EB5B00;
+   margin-left: 650px;
+   border-radius: 50%;
+ }
+
+
+.box3{
+   margin-top: -50px;
+   width: 130px;
+   height: 50px;
+   background-color: #EB5B00;
+   margin-left: 940px;
+   border-radius: 50%;
+ }
+
+ .box4{
+   margin-top: -55px;
+   width: 180px;
+   height: 50px;
+   background-color: #EB5B00;
+   margin-left: 1220px;
+   border-radius: 50%;
+ }
+img{
+   width: 670px;
+   height: 500px;
+   margin-top: 200px;
+   margin-left: 720px;
+   border-radius: 50%;
+}
+.start{
+   font-size: x-large;
+   margin-top: -380px;
+   margin-left: 20px;
+   font-weight: 400;
+   color: chocolate;
+   font-family: system-ui, sans-serif;
+}
+.main{
+   float: left;
+   width: 700px;
+   font-size: large;
+   color: antiquewhite;
+   font-family: 'Courier New', Courier, monospace;
+   margin-left: 20px;
+}
+.container{
+margin-top: -250px;
+margin-left: 350px;
+}
+.search{
+   width: 330px;
+
+}
+.srch{
+   font-family: 'Times New Roman';
+   width: 800px;
+   height: 50px;
+   background: transparent;
+   border: 5px solid #ff7200;
+   color: white;
+   border-right: none;
+   font-size: 20px;
+   padding: 10px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+}
+
+.btn{
+   width: 200px;
+   height: 55px;
+   background: #ff7200;
+   border: 2px solid #ff7200;
+   color: white;
+   font-size: 20px;
+   border-bottom-right-radius: 5px;
+
+}
+.btn:focus{
+   outline: none;
+}
+.srch:focus{
+   outline: none;
+}
+.btn:hover{
+   color: #ba0707;
+   scale: 0.9;
+   transition: all ease-in-out;
+}
+.srch:hover{
+   color: black;
+}
+.perf{
+   margin-left:-1000px;
+   margin-top:300px;
+}
+.square{
+   margin-top:-400px;
+   margin-left: 600px;
+   width: 300px;
+   height: 300px;
+   background-color: coral;
+   animation-name: ragaca;
+   animation-duration: 5s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: 5;
+   text-align: center;
+   font-size: larger;
+   font-weight: bold;
+}
+.square:hover{
+   animation-play-state: paused;
+}
+@keyframes ragaca{
+   10%{
+      background-color: teal;
+   }
+   50%{
+      background-color: turquoise;
+     scale: 1.2;
+      border-radius: 50%;
+   }
+   100%{
+      background-color: purple;
+   }
+}
+.square2{
+   margin-top: 120px;
+   margin-left: -50px;
+   width: 300px;
+   height: 300px;
+   background-color: blueviolet;
+   animation-name: bla;
+   animation-duration: 5s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: 5;
+   text-align: center;
+   font-size: x-large;
+   font-weight: bold;
+}
+.square2:hover{
+   animation-play-state: paused;
+}
+@keyframes bla {
+  10%{
+   background-colorcolor: plum;
+  }
+  50%{
+   scale: 1.2;
+   background-colorcolor: powderblue;
+   border-radius: 50%;
+  }
+  100%{
+   background-color: palegreen;
+  }
+ }
+.duxi{
+   margin-left:-400px;
+   margin-top:-500px;
+}
+.ragaca{
+   width: 1828px;
+   height: 650px;
+   background-color: white;
+   margin-left: -661px;
+   margin-top: 100px;
+   font-weight: bolder;
+   font-size: x-large;
+   font-family: system-ui, sans-serif;
+   
+}
+.ragaca img{
+margin-top:50px;
+margin-left: 250px;
+}
+
+.text{
+   margin-top:-500px;
+   margin-left: 400px;
+   width: 700px;
+   height: 300px;
+   background-color: darkgoldenrod;
+   font-size: large;
+   font-weight: bold;
+
+}
+.text span{
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   color: darkslategray;
+   font-size: x-large;
+}
+.price{
+   margin-left:400px;
+   margin-top: -150px;
+   font-size: xx-large;
+   font-weight: bolder;
+   color: royalblue;
+  
+}
+
+button{
+   scale: 1.1;
+  color: rgb(207, 204, 203);
+  padding: 10px;
+  background-color: rgb(176, 245, 0);
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 1px 1px 2px black;
+  cursor: pointer;
+}
+button:hover{
+background-color: rgb(28, 230, 2);
+transform: scale(1.2);
+transition: all 300ms linear;
+}
+
+.gilaki button{
+   margin-left: 700px;
+   margin-top: 50px;
+}
+
+button{
+   scale: 1.1;
+  color: rgb(207, 204, 203);
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 1px 1px 2px black;
+  cursor: pointer;
+}
+button:hover{
+   background-color: rgb(19, 2, 97);
+   transform: scale(1.2);
+   transition: all 300ms linear;
+}
+.gila button{
+   margin-top: 150px;
+   margin-left: 350px;
+   border-radius: 50%;
+}
+.yuti{
+   width: 1828px;
+   height: 550px;
+   background-color: rgb(0, 0, 0);
+   margin-left: -661px;
+   margin-top: 250px;
+   
+}
+h2{
+   margin-top: -650px;
+   padding-left: 300px;
+   font-weight: bolder;
+   font-size: 300%;
+   color: #FFB200;
+
+}
+h3{
+   font-weight: 500;
+   font-size: xx-large;
+font-family: system-ui, sans-serif;
+color: #EB5B00;
+margin-top: 70px;
+padding-left: 50px;
+margin-top: 100px;
+
+}
+.kk{
+   width: 20px;
+   height: 100px;
+   background-color:#DAD4B5;
+   margin-top: 290px;
+margin-left:-150px;
+}
+.days{
+   font-size: xx-large;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+   color: aqua;
+   margin-left: 150px;
+   margin-top: -200px;
+  
+}
+.damn{
+   display: grid;
+   color: red;
+      gap: 10px;
+      font-size: xx-large;
+      font-weight: bold;
+      font-family:'Times New Roman', Times, serif;
+      margin-left: 150px;
+      margin-top: 10px;
+}
+.damn:hover{
+   color: blue;
+}
+.socials{
+   margin-left: 400px;
+   margin-top:-225px;
+   font-size: xx-large;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+   color: aqua;
+}
+.soc{
+   display: grid;
+   color: red;
+   gap: 10px;
+   font-size: xx-large;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+   margin-left: 320px;
+}
+.soc:hover{
+   color: darkgoldenrod;
+}
+.add{
+   margin-left: 800px;
+   margin-top:-225px;
+   font-size: xx-large;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+   color: aqua;
+}
+.wrap{
+   display: grid;
+   color: red;
+   gap:10px;
+   font-size: x-large;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+   margin-left: 800px;
+   margin-top: 50px;
+
+}
+.wrap:hover{
+   color: green;
+}
